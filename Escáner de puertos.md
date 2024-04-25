@@ -1,7 +1,3 @@
-Durante el desarrollo de estas clases, nos centraremos en la creación de un escáner de puertos. Una característica clave será la implementación de ‘**threading**‘ para acelerar el proceso de escaneo. Aprenderemos a utilizar ‘**ThreadPoolExecutor**‘ para gestionar y limitar los hilos, evitando así errores comunes como el exceso de conexiones máximas.
-
-Además, integraremos ‘**argparse**‘ en nuestra herramienta, lo que nos permitirá personalizar las opciones de ejecución. Este enfoque nos dará una comprensión más profunda de cómo optimizar el rendimiento y la eficiencia de nuestras herramientas de seguridad en red, manteniendo un equilibrio entre velocidad y estabilidad.
-
 # Escaner
 ## Colores
 ```
@@ -18,15 +14,18 @@ pip3 intall termcolor
 
 - Parámetro "-h" (Help)
 
-![[Pasted image 20240425181349.png]]
+![Pasted image 20240425181349](https://github.com/Frib1t/Python_Ofensivo/assets/102589078/96fc9268-e3f8-4087-9024-c995690f8e6f)
+
 
 - Uso con rango de puertos:
 
-![[Pasted image 20240425181632.png]]
+![Pasted image 20240425181632](https://github.com/Frib1t/Python_Ofensivo/assets/102589078/8793b607-049c-40b9-9e6b-2905acced3b6)
+
 
 - Uso con un solo puerto:
 
-![[Pasted image 20240425181729.png]]
+![Pasted image 20240425181729](https://github.com/Frib1t/Python_Ofensivo/assets/102589078/d962a385-8272-4545-baa4-b00ae3764095)
+
 
 
 ```python

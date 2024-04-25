@@ -1,7 +1,7 @@
 # Escaner
 ## Colores
 ```
-pip3 intall termcolor
+pip3 install termcolor
 ```
 ## Argparse
 

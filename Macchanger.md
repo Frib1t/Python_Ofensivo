@@ -62,7 +62,8 @@ if __name__ == '__main__':
     main()
 ```
 
-![[Pasted image 20240425122018.png]]
+![Pasted image 20240425122018](https://github.com/Frib1t/Python_Ofensivo/assets/102589078/11df94d8-686e-4e48-8354-69264d30cc41)
+
 
 - Ejecutar el script con sudo por tema de permisos a la hora de cambiar la MAC
 - Para verificar el cambio de MAC o listar un vendor de MAC usar macchanger.
@@ -73,4 +74,5 @@ macchanger -l # lista MAC's
 macchanger -s <Nuestra interfaz de red> # verifica el cambio y te lista la original
 ```
 
-![[Pasted image 20240425122501.png]]
+![Pasted image 20240425122501](https://github.com/Frib1t/Python_Ofensivo/assets/102589078/de9e224f-9e63-4863-9caf-4dd3ebf13abf)
+

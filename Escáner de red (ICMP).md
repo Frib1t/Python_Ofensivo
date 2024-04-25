@@ -3,13 +3,16 @@ Creación de un escáner de red por ICMP, para detectar dispositivos activos en 
 > El uso es mediante el parámetro "-t" para pasarle la IP objetivo o el rango con "-". El menú de ayuda se despliega con -h.
 
 -  "-h":
-![[Pasted image 20240425174753.png]]
+![Pasted image 20240425174753](https://github.com/Frib1t/Python_Ofensivo/assets/102589078/2c22dda7-120a-4bef-a928-a8c66f6e14b7)
+
 
 - "-" Rango:
-![[Pasted image 20240425174538.png]]
+![Pasted image 20240425174538](https://github.com/Frib1t/Python_Ofensivo/assets/102589078/fb78bfef-535b-45a9-add7-7052b4f0020b)
+
 
 - "-t" IP única:
-![[Pasted image 20240425174647.png]]
+![Pasted image 20240425174647](https://github.com/Frib1t/Python_Ofensivo/assets/102589078/2cb24671-f643-4029-9963-dd11cc8a5bca)
+
 
 
 ```python

@@ -1,6 +1,7 @@
 El concepto de **Man-In-The-Middle** (**MITM**) es crucial aquí, ya que el atacante se posiciona estratégicamente entre dos partes para interceptar o modificar el tráfico de datos, una táctica común en ataques cibernéticos. Esta técnica es posible debido a la naturaleza de confianza del protocolo ARP, que no verifica si las respuestas a las solicitudes ARP son legítimas.
 
-![[arpspoofer.drawio.png]]
+![arpspoofer drawio](https://github.com/Frib1t/Python_Ofensivo/assets/102589078/7355a77a-eb73-4200-b9c0-44d0f96464ed)
+
 
 - El atacante debe hacer creer al **Router** que la **IP** de la victima viene vinculada a mi dirección **MAC** enviando una respuesta falsificada.
 - El atacante debe hacer creer a la maquina **victima** que la **IP** del Router tiene nuestra **MAC**, así alteramos la caché de ambos dispositivos alterando la Mac vinculada.
@@ -17,11 +18,12 @@ iptables --policy FORWARD ACCEPT
 cat /proc/sys/net/ipv4/ip_forward
 ```
 
-![[Pasted image 20240426135703.png]]
+![Pasted image 20240426135703](https://github.com/Frib1t/Python_Ofensivo/assets/102589078/45136e52-bd8c-4f1d-8b37-5822be0e6978)
+
 
 > Nos generamos una MAC aleatoria a modo de control para verla en el pc victima, esto lo podemos hacer con la aplicación macchanger de este mismo repositorio.
 
-![[Pasted image 20240426150023.png]]
+![Pasted image 20240426150023](https://github.com/Frib1t/Python_Ofensivo/assets/102589078/572cf6e8-9bd6-4388-b808-865515b9d5e7)
 
 
 ----
@@ -80,8 +82,9 @@ sudo python3 arpspoof.py -t 192.168.1.155
    Si probamos a abrir una web, veremos que la estamos interceptando.
    Podemos filtrar por **dns** o por la info que veamos en el programa, por ej: **dns.qry.name == "hackerone.com"**
 
+![flameshotspoof](https://github.com/Frib1t/Python_Ofensivo/assets/102589078/cae9af52-2145-4d45-b74c-78ab7c35c981)
 
-![[flameshotspoof.png]]
+
 
 Y ya estaremos envenenando el trafico sin que se enteren.
 

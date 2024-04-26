@@ -88,9 +88,3 @@ sudo python3 arpspoof.py -t 192.168.1.155
 
 Y ya estaremos envenenando el trafico sin que se enteren.
 
-
-Otra herramienta que automatiza todo es **arpspoof** funciona así:
-```bash
-arpspoof -i eth0 -t 192.168.1.155 -r 192.168.1.1
-```
-

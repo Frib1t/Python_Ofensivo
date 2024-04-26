@@ -2,7 +2,8 @@
 
 > Encuentra la dirección de hardware que corresponde a una IP
 
-![[Pasted image 20240426130513.png]]
+![Pasted image 20240426130513](https://github.com/Frib1t/Python_Ofensivo/assets/102589078/fa56c474-703e-4457-b70e-8ce553d464e1)
+
 
 ```python
 #!/usr/bin/env python3

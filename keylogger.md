@@ -1,4 +1,5 @@
-Bienvenido a este repositorio, diseñado para proporcionar una herramienta eficaz y sencilla para la captura de teclas, también conocido como keylogger, utilizando Python. Esta implementación no solo se enfoca en registrar las pulsaciones de teclado, sino también en enviar los registros a través de correo electrónico de manera segura y automatizada.
+# Bienvenido a este repositorio
+Este Repo, está diseñado para proporcionar una herramienta eficaz y sencilla para la captura de teclas, también conocido como keylogger, utilizando Python. Esta implementación no solo se enfoca en registrar las pulsaciones de teclado, sino también en enviar los registros a través de correo electrónico de manera segura y automatizada.
 
 # Uso y Propósito
 Este proyecto está diseñado con fines educativos y de prueba. Proporciona una manera práctica de aprender sobre la captura de teclas y el manejo de correos electrónicos en Python. Se recomienda usar esta herramienta de manera ética y respetuosa, siempre con el consentimiento adecuado si se prueba en sistemas ajenos.

@@ -1,17 +1,30 @@
-# Requisitos
-- Para empezar debes tener una cuenta de gmail y crear una contraseña de aplicación, luego instalar pynput.
+Bienvenido a este repositorio, diseñado para proporcionar una herramienta eficaz y sencilla para la captura de teclas, también conocido como keylogger, utilizando Python. Esta implementación no solo se enfoca en registrar las pulsaciones de teclado, sino también en enviar los registros a través de correo electrónico de manera segura y automatizada.
+
+# Uso y Propósito
+Este proyecto está diseñado con fines educativos y de prueba. Proporciona una manera práctica de aprender sobre la captura de teclas y el manejo de correos electrónicos en Python. Se recomienda usar esta herramienta de manera ética y respetuosa, siempre con el consentimiento adecuado si se prueba en sistemas ajenos.
+
+# Para comenzar, asegúrate de cumplir con los siguientes requisitos:
+
+- Cuenta de Gmail: Necesitarás una cuenta de Gmail para enviar los registros por correo electrónico.
+- Contraseña de Aplicación: Debes generar una contraseña de aplicación para tu cuenta de Google. Puedes crearla accediendo a Contraseñas de Aplicaciones.
+- Instalación de Pynput: Este proyecto utiliza la biblioteca pynput para capturar las teclas. Instálala ejecutando el siguiente comando:
 ```bash
 pip3 install pynput
 ```
 
+# Configuración
+Una vez generada la contraseña de aplicación (por ejemplo, yxkijwbtebfukhvc), introdúcela sin espacios en el código.
 - Acceder a https://myaccount.google.com/apppasswords para crear contraseña de aplicación para tu cuenta google
 ![Pasted image 20240628130101](https://github.com/Frib1t/Python_Ofensivo/assets/102589078/e7938d60-c808-4fd0-b098-24722f5397b8)
 
-- Una vez entres la tendrás activada (yxki jwbt ebfu khvc) la introduces sin espacios.
-- Ejecución:
+# Ejecución:
 ```bash
 python3 main.py &> /dev/null & disown
 ```
+# Descripción de Archivos
+keylogger.py: Contiene la clase Keylogger que maneja la captura de teclas y el envío de correos electrónicos. Utiliza pynput para escuchar las teclas presionadas y smtplib junto con email.mime.text.MIMEText para enviar los registros.
+
+main.py: Es el script principal que inicia el keylogger y maneja la señal de interrupción para finalizar la ejecución de manera segura.
 
 # keylogger.py
 ```python

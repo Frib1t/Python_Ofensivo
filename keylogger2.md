@@ -5,7 +5,8 @@ pip3 install pynput
 ```
 
 - Acceder a https://myaccount.google.com/apppasswords para crear contraseña de aplicación para tu cuenta google
-![[Pasted image 20240628130101.png]]
+![Pasted image 20240628130101](https://github.com/Frib1t/Python_Ofensivo/assets/102589078/e7938d60-c808-4fd0-b098-24722f5397b8)
+
 - Una vez entres la tendrás activada (yxki jwbt ebfu khvc) la introduces sin espacios.
 - Ejecución:
 ```bash
